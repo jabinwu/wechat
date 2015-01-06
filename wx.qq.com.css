@@ -1,0 +1,114 @@
+@-moz-document url-prefix("https://wx.qq.com") {
+	body{
+		overflow-x:hidden;
+	}
+
+	#chat_leftpanel,
+	.listContentWrap{
+		width: 360px !important;
+		height: 230px !important;
+	}
+
+	.listOperator,
+	.chatMainPanel,
+	 .chatPanel{
+		width: 360px !important;
+	}
+		
+	#vernierContainer,
+	.panelBackground,
+    #guideTrigger,
+    .pngImg,
+    .recommend_wrp,
+    .icon_faq{
+		display: none !important;
+	}    
+
+	.chatPanel .chatContainer {
+		position: static !important;
+		max-height: 250px !important;
+	}
+		
+	.chatPanel .list {
+		border:none !important;
+		float: none !important;
+		position: static !important;
+	}
+
+    /* 聊天框高度*/
+	.chatPanel .chatScorll {
+		max-height: 320px !important;
+	}
+
+	.iconOperater, #rightOpBtn{
+        display: none !important;
+	}
+
+	.chatPanel .chat {
+		margin-left: 0px !important;
+		margin-top: 125px !important;
+	}
+
+	.chatPanel .chatNameWrap .chatName {
+			width: 300 !important;
+		}
+	.chatPanel .chatInput{
+		width: 120px;
+		padding: 14px 5px 0 5px;
+	}
+
+	.chatPanel .chatContent{
+		width: 320px !important;
+		padding: 10px !important;
+	}
+    
+    .loginPanel{
+        width: 400px !important;
+    }
+    #login_container{
+        max-width: 250px !important;
+    }
+    #login_container .loginPanel .lang {
+        width: 250px !important;
+    }
+    
+    .footer{
+        background: none !important;
+    }
+    
+    .preAvartor img,
+    .bigAvatarWrapper,
+    .editBox
+    .editBox div img{
+        height:200px!important;
+        width:200px!important;
+    }
+    
+    .avatorInfo .editBox,
+    .bigAvatarWrapper,
+    .window .content .physicalInfor{
+        margin:0px!important;
+    }
+    .window .content {
+       padding: 10px 10px!important;
+    }
+    #popupcontactprofile,
+    #modifyavatar{
+       left: 18px!important;
+}
+
+    .window{
+       width: 360px!important;
+}
+
+    .physicalInfor{
+       margin:none!important;
+}
+
+	.chatPanel .media,
+	.media img{
+		width: 340px!important;
+	}
+	.media img{
+		width: 340px!important;
+	}
